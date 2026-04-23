@@ -13,7 +13,7 @@
 //     • Після перезавантаження сторінки поле має відновлювати збережене значення.
 //     • Під час введення в .user-name потрібно зберігати ім’я в localStorage.
 
-import { initWelcomeTaskPager, onNameInput } from './js/handler';
+import { initWelcomeTaskPager, onNameInput } from './js/handlers';
 import { refs } from './js/refs';
 
 document.addEventListener('DOMContentLoaded', initWelcomeTaskPager);
