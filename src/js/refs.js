@@ -5,4 +5,6 @@ export const refs = {
   colorStatus: document.querySelector('.color-status'),
   notificationsToggle: document.querySelector('.notifications-toggle'),
   notificationsStatus: document.querySelector('.notifications-status'),
+  currentTime: document.querySelector('.current-time'),
+  hintBanner: document.querySelector('.hint-banner'),
 };

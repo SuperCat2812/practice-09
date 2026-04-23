@@ -1,0 +1,19 @@
+.hint-task {
+  height: 100vh;
+}
+.hint-banner {
+  background-color: aqua;
+  height: 100vh;
+  width: 200px;
+  padding: 20px;
+  transition: transform 300ms linear;
+}
+
+body,
+p {
+  margin: 0;
+}
+
+.hint-banner.hidden {
+  transform: translateX(-100%);
+}
